@@ -18,9 +18,9 @@ public class SignIn {
 
 		driver.findElement(By.xpath("//*[@id='name']")).sendKeys("anant");
 
-		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("28@gmail.com");
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("29@gmail.com");
 
-		driver.findElement(By.xpath("//*[@id='mobile']")).sendKeys("1000000008");
+		driver.findElement(By.xpath("//*[@id='mobile']")).sendKeys("1000000010");
 		driver.findElement(By.xpath("//*[@id='sub_btn_signup']")).click();
 
 		
