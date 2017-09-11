@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 72.045 sec <<< FAILURE! - in TestSuite
+f(com.maven.MavenfirstProject.parameterClass)  Time elapsed: 2.669 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //*[@id='navbar-collapse']/ul/li[6]/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.64 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'AARAV-PC', ip: '192.168.42.130', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:29569/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=8, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 20aa56e2-11c9-4d3f-89ca-aa9aec32f180
+*** Element info: {Using=xpath, value=//*[@id='navbar-collapse']/ul/li[6]/a}
+	at com.maven.MavenfirstProject.parameterClass.f(parameterClass.java:22)
+
+f(com.maven.MavenfirstProject.parameterClass)  Time elapsed: 14.6 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element is not visible
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'AARAV-PC', ip: '192.168.42.130', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\AARAV\AppData\Local\Temp\rust_mozprofile.qq385wGqr4TH, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.1, moz:processID=6228.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 07f4dde9-1dee-410a-b7fc-e7c18e63b875
+	at com.maven.MavenfirstProject.parameterClass.f(parameterClass.java:25)
+

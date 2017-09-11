@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="72.045" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Workspace\MavenfirstProject"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\AARAV\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1919552940452814910.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_141/bin/../jre/bin/client;C:/Program Files/Java/jdk1.8.0_141/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_141/bin/../jre/lib/i386;c:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_141\bin;D:\Selenium\eclipse-standard-kepler-SR2-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\AARAV"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="AARAV"/>
+    <property name="java.class.path" value="/D:/Selenium/eclipse-standard-kepler-SR2-win32/eclipse/configuration/org.eclipse.osgi/bundles/270/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_141\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Workspace\MavenfirstProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/D:/Selenium/eclipse-standard-kepler-SR2-win32/eclipse/configuration/org.eclipse.osgi/bundles/270/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="f" classname="com.maven.MavenfirstProject.parameterClass" time="2.669">
+    <failure message="Unable to find element with xpath == //*[@id=&apos;navbar-collapse&apos;]/ul/li[6]/a (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.64 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;AARAV-PC&apos;, ip: &apos;192.168.42.130&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;&#10;Driver info: org.openqa.selenium.ie.InternetExplorerDriver&#10;Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:29569/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=8, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]&#10;Session ID: 20aa56e2-11c9-4d3f-89ca-aa9aec32f180&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;navbar-collapse&apos;]/ul/li[6]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to find element with xpath == //*[@id='navbar-collapse']/ul/li[6]/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.64 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'AARAV-PC', ip: '192.168.42.130', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{se:ieOptions={browserAttachTimeout=0.0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0.0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:29569/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, version=8, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 20aa56e2-11c9-4d3f-89ca-aa9aec32f180
+*** Element info: {Using=xpath, value=//*[@id='navbar-collapse']/ul/li[6]/a}
+	at com.maven.MavenfirstProject.parameterClass.f(parameterClass.java:22)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Before TestIE
+Before Testfirefox
+Before Testchrome
+Weare in login page
+]]></system-out>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.4.0.0
+Listening on port 29569
+Only local connections are allowed
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 30819
+Only local connections are allowed.
+1505102195617	geckodriver	INFO	geckodriver 0.18.0
+1505102195650	geckodriver	INFO	Listening on 127.0.0.1:27008
+1505102197621	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+Sep 11, 2017 9:26:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+1505102210503	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1505102213335	Marionette	INFO	Enabled via --marionette
+[Parent 6228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Sep 11, 2017 9:27:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="f" classname="com.maven.MavenfirstProject.parameterClass" time="8.434"/>
+  <testcase name="f" classname="com.maven.MavenfirstProject.parameterClass" time="14.6">
+    <failure message="Element is not visible&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;AARAV-PC&apos;, ip: &apos;192.168.42.130&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_141&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\AARAV\AppData\Local\Temp\rust_mozprofile.qq385wGqr4TH, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.1, moz:processID=6228.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 07f4dde9-1dee-410a-b7fc-e7c18e63b875" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+Element is not visible
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'AARAV-PC', ip: '192.168.42.130', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\AARAV\AppData\Local\Temp\rust_mozprofile.qq385wGqr4TH, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.1, moz:processID=6228.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 07f4dde9-1dee-410a-b7fc-e7c18e63b875
+	at com.maven.MavenfirstProject.parameterClass.f(parameterClass.java:25)
+</failure>
+    <system-out><![CDATA[After class
+Weare in login page
+]]></system-out>
+    <system-err><![CDATA[1505102239520	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dev.tracko.co.in/"
+1505102242484	Marionette	DEBUG	Received DOM event "pageshow" for "https://dev.tracko.co.in/"
+1505102243657	Marionette	DEBUG	Received DOM event "beforeunload" for "https://dev.tracko.co.in/"
+1505102244001	Marionette	DEBUG	Received DOM event "pagehide" for "https://dev.tracko.co.in/"
+1505102244004	Marionette	DEBUG	Received DOM event "unload" for "https://dev.tracko.co.in/"
+1505102245442	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://dev.tracko.co.in/trackoweb/signup.html"
+1505102246206	Marionette	DEBUG	Received DOM event "pageshow" for "https://dev.tracko.co.in/trackoweb/signup.html"
+1505102246953	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+]]></system-err>
+  </testcase>
+</testsuite>

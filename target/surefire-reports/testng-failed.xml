@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test 3(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.maven.MavenfirstProject.parameterClass">
+        <methods>
+          <include name="afterTest"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.maven.MavenfirstProject.parameterClass -->
+    </classes>
+  </test> <!-- Test 3(failed) -->
+  <test name="Test 2(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.maven.MavenfirstProject.parameterClass">
+        <methods>
+          <include name="afterTest"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.maven.MavenfirstProject.parameterClass -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
